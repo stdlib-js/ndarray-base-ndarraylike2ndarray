@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,28 +16,29 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { typedndarray } from '@stdlib/types/ndarray';
 
 /**
-* Convert an ndarray-like object to an ndarray.
+* Converts an ndarray-like object to an ndarray.
 *
-* @module @stdlib/ndarray-base-ndarraylike2ndarray
+* @param x - input ndarray
+* @returns ndarray
 *
 * @example
 * var array = require( '@stdlib/ndarray-array' );
-* var ndarraylike2ndarray = require( '@stdlib/ndarray-base-ndarraylike2ndarray' );
 *
 * var x = array( [ [ 1, 2, 3 ], [ 4, 5, 6 ] ] );
 *
 * var out = ndarraylike2ndarray( x );
 * // returns <ndarray>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function ndarraylike2ndarray<T = unknown>( x: typedndarray<T> ): typedndarray<T>;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = ndarraylike2ndarray;
