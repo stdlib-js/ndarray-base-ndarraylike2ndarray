@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-ndarraylike2ndarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@umd/browser.js' )
+ndarraylike2ndarray = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var ndarraylike2ndarray = require( 'path/to/vendor/umd/ndarray-base-ndarraylike2
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -116,7 +116,7 @@ var out = ndarraylike2ndarray( arr );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
