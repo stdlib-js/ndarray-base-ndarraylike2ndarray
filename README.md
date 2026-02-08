@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ndarraylike2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@esm/index.mjs';
+import ndarraylike2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@v0.1.1-esm/index.mjs';
 ```
 
 #### ndarraylike2ndarray( x )
@@ -94,7 +94,7 @@ var out = ndarraylike2ndarray( arr );
 <script type="module">
 
 import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@esm/index.mjs';
-import ndarraylike2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@esm/index.mjs';
+import ndarraylike2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@v0.1.1-esm/index.mjs';
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
