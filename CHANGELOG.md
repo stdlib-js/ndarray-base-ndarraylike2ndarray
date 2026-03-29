@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-21)
+## Unreleased (2026-03-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b9709d8`](https://github.com/stdlib-js/stdlib/commit/b9709d8608a4cbfc6e5af6f293e5263708ae3430) - **test:** use accessors to resolve ndarray meta data _(by Athan Reines)_
 -   [`25e5ccb`](https://github.com/stdlib-js/stdlib/commit/25e5ccb8759c3f7b409e58454fafb52cc8c89394) - **bench:** refactor to use string interpolation in `ndarray/base/ndarraylike2ndarray` [(#11060)](https://github.com/stdlib-js/stdlib/pull/11060) _(by Partha Das)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Partha Das
 
 </section>
