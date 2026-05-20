@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-19)
+## Unreleased (2026-05-20)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`62d6dcc`](https://github.com/stdlib-js/stdlib/commit/62d6dcc0bd4c36e07c629811ab23831bfe65bf7a) - avoid duplicate validation overhead and fix default order resolution
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`62d6dcc`](https://github.com/stdlib-js/stdlib/commit/62d6dcc0bd4c36e07c629811ab23831bfe65bf7a) - **fix:** avoid duplicate validation overhead and fix default order resolution _(by Athan Reines)_
 -   [`b9709d8`](https://github.com/stdlib-js/stdlib/commit/b9709d8608a4cbfc6e5af6f293e5263708ae3430) - **test:** use accessors to resolve ndarray meta data _(by Athan Reines)_
 -   [`25e5ccb`](https://github.com/stdlib-js/stdlib/commit/25e5ccb8759c3f7b409e58454fafb52cc8c89394) - **bench:** refactor to use string interpolation in `ndarray/base/ndarraylike2ndarray` [(#11060)](https://github.com/stdlib-js/stdlib/pull/11060) _(by Partha Das)_
 
