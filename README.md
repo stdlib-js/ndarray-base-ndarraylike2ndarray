@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/ndarray-base-ndarraylike2ndarray
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ndarraylike2ndarray = require( '@stdlib/ndarray-base-ndarraylike2ndarray' );
+import ndarraylike2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@deno/mod.js';
 ```
 
 #### ndarraylike2ndarray( x )
@@ -78,7 +60,7 @@ var ndarraylike2ndarray = require( '@stdlib/ndarray-base-ndarraylike2ndarray' );
 Converts an ndarray-like object to an [`ndarray`][@stdlib/ndarray/base/ctor].
 
 ```javascript
-var array = require( '@stdlib/ndarray-array' );
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
 
 var arr = array( [ [ 1, 2 ], [ 3, 4 ] ] );
 var out = ndarraylike2ndarray( arr );
@@ -106,16 +88,16 @@ var out = ndarraylike2ndarray( arr );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var getDType = require( '@stdlib/ndarray-dtype' );
-var getShape = require( '@stdlib/ndarray-shape' );
-var getStrides = require( '@stdlib/ndarray-strides' );
-var getOffset = require( '@stdlib/ndarray-offset' );
-var getOrder = require( '@stdlib/ndarray-order' );
-var array = require( '@stdlib/ndarray-array' );
-var numel = require( '@stdlib/ndarray-numel' );
-var ndims = require( '@stdlib/ndarray-ndims' );
-var join = require( '@stdlib/array-base-join' );
-var ndarraylike2ndarray = require( '@stdlib/ndarray-base-ndarraylike2ndarray' );
+import getDType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtype@deno/mod.js';
+import getShape from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-shape@deno/mod.js';
+import getStrides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-strides@deno/mod.js';
+import getOffset from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-offset@deno/mod.js';
+import getOrder from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-order@deno/mod.js';
+import array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-array@deno/mod.js';
+import numel from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-numel@deno/mod.js';
+import ndims from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ndims@deno/mod.js';
+import join from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-join@deno/mod.js';
+import ndarraylike2ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-ndarraylike2ndarray@deno/mod.js';
 
 // Create an ndarray:
 var x = array( [ [ 1, 2 ], [ 3, 4 ] ] );
@@ -163,7 +145,7 @@ console.log( 'order: %s', getOrder( out ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -226,7 +208,7 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-ndarraylike2ndarray/main/LICENSE
 
-[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor
+[@stdlib/ndarray/base/ctor]: https://github.com/stdlib-js/ndarray-base-ctor/tree/deno
 
 </section>
 
